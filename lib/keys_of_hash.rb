@@ -8,5 +8,4 @@ class Hash
     end
     keys
   end
-  
 end
