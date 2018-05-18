@@ -5,7 +5,8 @@ class Hash
       if arguments.include?(value)
         keys << key
       end  
-    end  
+    end
+    keys
   end
-  keys
+  
 end
