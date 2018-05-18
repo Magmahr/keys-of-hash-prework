@@ -2,8 +2,8 @@ class Hash
   def keys_of(*arguments)
     keys = []
     self.each do |key, value|
-      if arguments[key].include?(value)
-        keys << arguments[key]
+      if arguments.include?(value)
+        keys << key
       end  
     end  
   end
